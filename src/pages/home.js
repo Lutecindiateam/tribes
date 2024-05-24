@@ -1,0 +1,31 @@
+import CausesTwo from "@/components/CausesTwo/CausesTwo";
+import Counters from "@/components/Counters/Counters";
+import EventsOne from "@/components/EventsOne/EventsOne";
+import FourIcon from "@/components/FourIcon/FourIcon";
+import GalleryOne from "@/components/GalleryOne/GalleryOne";
+import Introduction from "@/components/Introduction/Introduction";
+import Layout from "@/components/Layout/Layout";
+import MainSliderTwo from "@/components/MainSliderTwo/MainSliderTwo";
+import NewsTwo from "@/components/NewsTwo/NewsTwo";
+import Volunteer from "@/components/Volunteer/Volunteer";
+import WeInspire from "@/components/WeInspire/WeInspire";
+import React from "react";
+
+const Home2 = () => {
+  return (
+    <Layout pageTitle="SVMM">
+      <MainSliderTwo />
+      <Introduction />
+      <FourIcon />
+      <WeInspire />
+      <EventsOne />
+      <Volunteer />
+      <CausesTwo />
+      <Counters />
+      <NewsTwo />
+      <GalleryOne className="gallery-two" />
+    </Layout>
+  );
+};
+
+export default Home2;
